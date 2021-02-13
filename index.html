@@ -1,0 +1,38 @@
+<!--Creamos el html para dar estilo al juego.-->
+<html>
+
+    <!--Cabecero-->
+<head>
+    <!--Definimos el meta charsetpara evitar un visionado incorrecto enn el navegador.-->
+
+    <meta charset="utf-8" />
+    <title>JUEGO</title>
+
+    <!--Definimos css-->
+         <!--Organizamos con canvas el  gráfico y ponemos estilo al cuerpo.-->
+
+    <style>
+    * { 
+        padding: 50; 
+        margin: 50; 
+        } 
+
+        canvas { background:#B6D6D8; 
+        display: block; 
+        margin: 0 auto; 
+        }
+
+    </style>
+</head>
+
+ <!--Dentro del body realizamos el juego usando la etiqueta "canvas".-->
+
+    <!--Con el "id" nos permite tomar referencia y con el "scritp" enlazamos a nuestro js-->
+
+<body>
+
+    <canvas id="myCanvas" width="600" height="500"></canvas>
+    <script src="javascr/juego.js"></script>
+
+</body>
+</html>
